@@ -1,0 +1,16 @@
+{
+  "Users": {
+    "usr_BxTjgvRTQkJMHSNu": {
+      "ID": "usr_BxTjgvRTQkJMHSNu",
+      "Email": "aldyan@local.com",
+      "HashedPassword": "$2a$10$jGkVkM3awthmuJKRoAvuJeHee6OvvsB8GtfBaJx.HNyC2tzWWlNlG",
+      "Username": "Beeboy"
+    },
+    "usr_o9YfvVN57CHxxcq9": {
+      "ID": "usr_o9YfvVN57CHxxcq9",
+      "Email": "ahmad@local.com",
+      "HashedPassword": "$2a$10$Xb1oT6B4qw/1lbfZP27q1.g5jhAda1gwgtjfkG6YnwOJte3IK8ZgW",
+      "Username": "ahmad"
+    }
+  }
+}

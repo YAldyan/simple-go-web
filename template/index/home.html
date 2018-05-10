@@ -1,0 +1,48 @@
+{{define "index/home"}}
+  {{template "images/index" .}}
+{{end}}
+<!-- {{define "images/index"}}
+<div class="row">
+  {{if .Images}}
+    {{range .Images}}
+      <div class="col-xs-12 col-sm-6 col-md-3">
+        <a href="{{.ShowRoute}}" class="thumbnail">
+          <img src="{{.StaticRoute}}">
+        </a>
+      </div>
+    {{end}}
+  {{else}}
+    <h2>No Images Yet</h2>
+    <a href='/images/new'>Why not upload one?</a>
+  {{end}}
+</div>
+{{end}}
+ -->
+<!-- <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="/">Goes</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li> 
+          <li><a href="#">Page 3</a></li> 
+        </ul> 
+     
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="/register"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+        </li>
+        <li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
